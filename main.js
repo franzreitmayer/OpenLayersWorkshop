@@ -5,7 +5,10 @@ import XYZ from 'ol/source/XYZ.js';
 import OSM from 'ol/source/OSM.js';
 import Link from 'ol/interaction/Link';
 
-const key = 'RimB45vbiccGjEIpPxR2';
+const key = '';
+
+console.log(`Using API key ${key}`);
+
 const attributions =
   '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> ' +
   '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>';
